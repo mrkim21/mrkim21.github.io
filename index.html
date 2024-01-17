@@ -5,7 +5,7 @@
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
-            margin: 40px;
+            margin: 0; /* Removed margin to avoid visible margin around the table */
             background-color: #eeeeee;
             color: #333;
         }
@@ -24,10 +24,11 @@
             bottom: 0;
             width: 100%;
             padding: 6px 0;
-            border: 3px solid #dddddd; /* Light gray border */
+            border-top: 3px solid #dddddd; /* Light gray border */
         }
         .content {
             text-align: left;
+            padding: 0 40px; /* Add padding here instead of on the body to maintain it for text */
         }
         a {
             color: #4CAF50;
@@ -35,6 +36,22 @@
         }
         .highlight { /* New class for MK316 text color */
             color: #c09f80; /* Or any other color you prefer */
+        }
+        table {
+            width: 100%; /* Set table to occupy full width of its container */
+            border-collapse: collapse; /* Collapse borders */
+        }
+        th {
+            background-color: orange;
+            color: white;
+            padding: 10px;
+        }
+        td {
+            background-color: white;
+            color: gray;
+            padding: 10px;
+            border: 1px solid #dddddd;
+        }
     </style>
 </head>
 <body>
@@ -49,15 +66,32 @@
         <p>As a researcher and an educator in linguistics and English education, I understand the importance of integrating technology into our teaching methods. While not an expert in coding, I recognize its growing relevance in our field. Here, you will find a concise overview of simple, coding-based applications that can enhance language learning and teaching.</p>
         <p>* Note that the app I am uploading is shared here using <a href="https://www.gradio.app/guides/gradio-lite" target="_blank" style="text-decoration: none;">Gradio-Lite.</a></p>
         <h3>How Gradio link works</h3>
-        <li>Demo 1: Gradio live link (example) <a href="https://mrkim21.github.io/test.html" target="_blank" style="text-decoration: none;">Click here</a>.</li>
-        <li>Demo 2: Calculator app <a href="https://mrkim21.github.io/calculator.html" target="_blank" style="text-decoration: none;">Click here</a>.</li>
+        <ul>
+            <li>Demo 1: Gradio live link (example) <a href="https://mrkim21.github.io/test.html" target="_blank" style="text-decoration: none;">Click here</a>.</li>
+            <li>Demo 2: Calculator app <a href="https://mrkim21.github.io/calculator.html" target="_blank" style="text-decoration: none;">Click here</a>.</li>
+        </ul>
+
         <h3>Language Apps (Click ▶️ to play)</h3>
-        <li>Numeric Expression Reader (<a href = "https://mrkim21.github.io/NumericExpressionReader.html" target="_blank" style="text-decoration: none;">▶️</a>): a user-friendly app that simplifies math calculations. You input numbers and choose an operation (like addition or subtraction), then the app converts the result into plain English. </li>
-        <li>Text-to-Speech(<a href = "https://mrkim21.github.io/appfolder/ttsapp.html" target="_blank" style="text-decoration: none;">▶️</a>): The user types a text and audio is generated. Language options between English and Korean.</li>
+        <table>
+            <tr>
+                <th>App Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Numeric Expression Reader (<a href = "https://mrkim21.github.io/NumericExpressionReader.html" target="_blank" style="text-decoration: none;">▶️</a>)</td>
+                <td>A user-friendly app that simplifies math calculations. You input numbers and choose an operation (like addition or subtraction), then the app converts the result into plain English.</td>
+            </tr>
+            <tr>
+                <td>Text-to-Speech (<a href = "https://mrkim21.github.io/appfolder/ttsapp.html" target="_blank" style="text-decoration: none;">▶</a>)</td>
+                <td>The user types a text and audio is generated. Language options between English and Korean.</td>
+            </tr>
+        </table>
+        
+        <!-- Rest of the content... -->
     </div>
 
     <footer>
-        <p>| Contact me at <span class="highlight"><a href="mailto:mk3one6@gmail.com" style="text-decoration: none;">mk3one6@gmail.com</a></span> | Last updated: Jan. 17, 2024 | <a href="https://github.com/MK316" style="text-decoration: none;">MK316</a> Github | <a href="englishedu.gnu.ac.kr" style="text-decoration: none;">GNU </a>|</p>
+        <!-- Footer content... -->
     </footer>
 </body>
 </html>
