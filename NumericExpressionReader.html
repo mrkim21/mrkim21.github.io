@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<script type="module" crossorigin src="https://cdn.jsdelivr.net/npm/@gradio/lite/dist/lite.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gradio/lite/dist/lite.css" />
+	</head>
+	<body>
+<gradio-lite>
+import gradio as gr
+
+def numeric_expression_reader(operation, a, b):
+    result = None
+    expression = None
+
+    if operation == 'Add':
+        result = a + b
+        expression = f"{a} plus {b}"
+    elif operation == 'Subtract':
+        result = a - b
+        expression = f"{a} minus {b}"
+    elif operation == 'Multiply':
+        result = a * b
+        expression = f"{a} multiplied by {b}"
+    elif operation == 'Divide':
+        if b != 0:
+            result = a / b
+            expression = f"{a} divided by {b}"
+        else:
+            result = 'Error: Division by zero'
+    
+    result_statement = f"{expression} becomes {result}" if result is not None else expression
+
+    return result_statement
+
+# Rest of your code remains the same
+
+# Create the Gradio interface with the correct inputs for the radio buttons
+iface = gr.Interface(
+    fn=numeric_expression_reader,
+    inputs=[
+        gr.Radio(choices=['Add', 'Subtract', 'Multiply', 'Divide'], label="Operation"),
+        gr.Number(label="a"),
+        gr.Number(label="b")
+    ],
+    outputs=gr.Textbox(label="Result Statement:"),
+    title="Numeric Expression Reader",
+    description="Select an operation and enter two numbers to perform basic arithmetic and get the result statement."
+)
+
+# Launch the app
+iface.launch()
+
+</gradio-lite>
+	</body>
+</html>
