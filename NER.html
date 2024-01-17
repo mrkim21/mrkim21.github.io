@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<script type="module" crossorigin src="https://cdn.jsdelivr.net/npm/@gradio/lite/dist/lite.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gradio/lite/dist/lite.css" />
+	</head>
+	<body>
+<gradio-lite>
+import gradio as gr
+
+def numeric_expression_reader(operation, a, b):
+    result = None
+    expression = None
+
+    if operation == 'Add':
+        result = a + b
+        expression = f"{convert_to_english_words(a)} plus {convert_to_english_words(b)}"
+    elif operation == 'Subtract':
+        result = a - b
+        expression = f"{convert_to_english_words(a)} minus {convert_to_english_words(b)}"
+    elif operation == 'Multiply':
+        result = a * b
+        expression = f"{convert_to_english_words(a)} multiplied by {convert_to_english_words(b)}"
+    elif operation == 'Divide':
+        if b != 0:
+            result = a / b
+            expression = f"{convert_to_english_words(a)} divided by {convert_to_english_words(b)}"
+        else:
+            result = 'Error: Division by zero'
+    
+    # Convert the numeric result into English words, unless it's between 10 and 19
+    result_in_words = None
+    if isinstance(result, (int, float)):
+        if 10 <= result <= 19:
+            result_in_words = str(int(result))  # Convert numbers between 10 and 19 directly to strings
+        else:
+            result_in_words = convert_to_english_words(result)
+
+    result_statement = f"{expression} becomes {result_in_words}" if result_in_words else expression
+
+    return result_statement
+
+def convert_to_english_words(number):
+    # Define lists for converting numbers to words
+    ones = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']
+    teens = ['Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen']
+    tens = ['', 'Ten', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety']
+
+    if 0 <= number <= 9:
+        return ones[number]
+    elif 11 <= number <= 19:
+        return teens[number - 11]
+    elif 10 <= number <= 99:
+        ten = number // 10
+        one = number % 10
+        return tens[ten] + ones[one] if one != 0 else tens[ten]
+    else:
+        return str(number)  # For numbers outside the supported range, return the original number as a string
+
+# Rest of your code remains the same
+
+# Create the Gradio interface with the correct inputs for the radio buttons
+iface = gr.Interface(
+    fn=numeric_expression_reader,
+    inputs=[
+        gr.Radio(choices=['Add', 'Subtract', 'Multiply', 'Divide'], label="Operation"),
+        gr.Number(label="a"),
+        gr.Number(label="b")
+    ],
+    outputs=gr.Textbox(label="Result Statement in English:"),
+    title="Numeric Expression Reader",
+    description="Select an operation and enter two numbers to perform basic arithmetic and get the result statement in English."
+)
+
+# Launch the app
+iface.launch(debug=True)
+</gradio-lite>
+	</body>
+</html>
