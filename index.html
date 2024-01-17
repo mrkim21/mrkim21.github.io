@@ -6,7 +6,7 @@
         body {
             font-family: 'Times New Roman', Times, serif;
             margin: 0; /* Removed margin to avoid visible margin around the table */
-            background-color: white;
+            background-color: #eeeeee;
             color: #333;
         }
         header {
@@ -52,12 +52,38 @@
             padding: 10px;
             border: 1px solid #dddddd;
         }
+		.menu {
+            background-color: #565656;
+            padding: 10px 0; /* Reduced padding to reduce height */
+            display: flex;
+            justify-content: center;
+            gap: 10px; /* Spacing between menu items */
+        }
+        .menu a {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px; /* Rounded corners for buttons */
+            transition: background-color 0.3s; /* Smooth background transition */
+        }
+        .menu a:hover {
+            background-color: #e67e22; /* Slightly darker orange on hover */
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>🐣 MK316 Language App Hub</h1>
         <h3>Since Jan. 2024</h3>
+        <div class="menu">
+            <a href="https://github.com/MK316">MK316 Github</a>
+            <a href="https://mrkim21.github.io/appfolder/appmain.html">My Apps</a>
+            <a href="https://mrkim21.github.io/classes/classmain.html">Classes</a>
+            <a href="https://mrkim21.github.io/manual/manualmain.html">Manuals</a>
+			<a href="https://mrkim21.github.io/personal.html">Contact info</a>
+        </div>
+
     </header>
 
     <div class="content">
@@ -83,7 +109,7 @@
             </tr>
             <tr>
                 <td>Text-to-Speech (<a href = "https://mrkim21.github.io/appfolder/ttsapp.html" target="_blank" style="text-decoration: none;">▶</a>)</td>
-                <td>Enter your desired text into the app, and it will instantly generate clear, natural-sounding audio. You have the flexibility to choose between English and Korean languages, allowing for a versatile auditory experience tailored to your language preferences.</td>
+                <td>The user types a text and audio is generated. Language options between English and Korean.</td>
             </tr>
         </table>
         
