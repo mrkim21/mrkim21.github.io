@@ -26,10 +26,12 @@
             padding: 6px 0;
             border-top: 3px solid #dddddd; /* Light gray border */
         }
-        .content {
-            text-align: left;
-            padding: 0 40px; /* Add padding here instead of on the body to maintain it for text */
-        }
+	.content {
+    		overflow: auto; /* This will add a scrollbar if the content overflows */
+    		text-align: left;
+    		padding: 0 40px;
+	}
+
         a {
             color: #198EA7;
             text-decoration: none;
