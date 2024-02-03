@@ -100,7 +100,12 @@
 			padding: 0 40px;
 			overflow: auto; /* Add this line */
 			max-height: 600px; /* Set a maximum height */
-		}
+	}
+	.scrollable-table-container {
+   		max-height: 300px; /* Adjust this value based on your needs */
+    		overflow-y: auto;
+    		margin-bottom: 20px;
+	}
     </style>
 </head>
 <body>
@@ -119,7 +124,9 @@
     <div class="content">
         <h2>My applications (Coding-based): </h2>
         <p>The app linked below is created using the Gradio package and Python coding. The code runs on Hugging Face and is connected as a web-based app. The app ID is marked based on the date of creation and the period when the app started to operate. <br></Br>When you click on the APP link icon, an app created based on coding will open in a new window. The initial launch will take a few seconds.</p>
-        <h3>1. Class management (Click to Open the Application  ▶️ )</h3>
+
+	<h3>1. Class management (Click to Open the Application  ▶️ )</h3>
+	<div class="scrollable-table-container">
         <table>
             <tr>
                 <th>ID</th>
@@ -142,8 +149,10 @@
                 <td>After you upload a student roster as a CSV file, you can set the groups according to the desired number of members and then download the resulting file.</td>		    
 	    </tr>
         </table>
-
-        <h3>2. English teaching & learning (Click to Open the Application  ▶️ )</h3>
+	</div>
+	    
+        <h3>2. English teaching & learning (Click to Open the Application ▶️)</h3>
+	<div class="scrollable-table-container">
         <table>
             <tr class="english-teaching-header">
                 <th>ID</th>
@@ -197,9 +206,11 @@
             </tr>
             <!-- More rows for other apps under this category... -->
         </table>
+	</div>
 
         <h3>3. Tailored Learning Apps: Personalized Education for My Students (as of Spring 2024;  Click to Open the Application  ▶️ )</h3>
-        <table>
+	<div class="scrollable-table-container">
+	<table>
             <tr class="tailored-learning-header">
                 <th>ID</th>
                 <th>Keywords</th>
