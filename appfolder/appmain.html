@@ -95,12 +95,16 @@
             background-color: #585079; /* Example color: Green */
             color: white;
         }
-		.content {
+	.content {
 			text-align: left;
 			padding: 0 40px;
 			overflow: auto; /* Add this line */
 			max-height: 600px; /* Set a maximum height */
 	}
+    	.center-div {
+        	display: flex;
+        	justify-content: center;
+    }
     </style>
 </head>
 <body>
@@ -266,9 +270,10 @@
             </tr>			
             <!-- More rows for other apps under this category... -->
         </table>
-
+	<br><br>
 	<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-	<div class="elfsight-app-bd5e5b2c-1e89-4aad-a440-0a4c1312fc60" data-elfsight-app-lazy></div>
+	<div class="elfsight-app-bd5e5b2c-1e89-4aad-a440-0a4c1312fc60 center-div" data-elfsight-app-lazy></div>
+
 			
 <footer>
         Last updated: Jan. 17, 2024 (🌱 Since Jan.2024) | 
