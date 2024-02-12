@@ -1,0 +1,260 @@
+ID,Keywords
+1, AAVE
+2, affix
+3, affricate
+4, agreement
+5, al
+6, allomorph
+7, allophone
+8, alternation
+9, alveolar
+10, antepenultimate
+11, anterior
+12, anticipation error
+13, approximant
+14, ar
+15, architecture
+16, articulation
+17, ash
+18, aspiration
+19, assimilation
+20,/au/
+21, base
+22, bilabial
+23, blending
+24, careful speech
+25, causative
+26, clear
+27, clipping
+28, coda
+29, coda cluster
+30, complementary
+31, complementary distribution
+32, complex onset
+33, compounding
+34, connected speech
+35, consonant cluster
+36, consonant deletion
+37, consonantal
+38, constituent
+39, constraint
+40, context
+41, continuant
+42, contrastive
+43, conversion
+44, core
+45, coronal
+46, dark
+47, darker
+48, darkest
+49, degemination
+50, deletion
+51, dependency
+52, derivation
+53, derivational
+54, derived
+55, deverbal
+56, dialectal variation
+57, diphthong
+58, dissimilation
+59, distinctive feature
+60, dorsal
+61, emphasized speech
+62, en
+63, fast speech
+64, feature
+65, feet
+66, flap
+67, flapping
+68, foot
+69, free variation
+70, geminate
+71, generalization
+72, glide
+73, glide insertion
+74, glottal stop
+75, heavy
+76, homorganic
+77, iambic
+78, in
+79, inflection
+80, inflectional
+81, initialism
+82, insertion
+83, intuition
+84, ir
+85, isolation
+86, /j/
+87, j
+88, /j/ insertion
+89,/l/
+90, labial
+91, lateral
+92, lateral approximant
+93, lax
+94, legitimate
+95, lexical
+96, light
+97, line
+98, liquid
+99, long vowel
+100, manner assimilation
+101, marked
+102, meaning
+103, metathesis
+104, monophthong
+105, monosyllabic
+106, morpheme
+107, morphologically related
+108, multiple consonants
+109, nasal
+110, nasal assimilation
+111, negative prefix
+112, neutralization
+113, non-permissible
+114, nondistictive feature
+115, nonsense words
+116, noun-forming
+117, number of syllables
+118, numeric
+119, obligatory
+120, obstruent
+121, obstruents
+122, onset
+123, onset cluster
+124, palatal
+125, palatalization
+126, palato-alveolar
+127, peak
+128, pen
+129, phoneme
+130, phonemic contrast
+131, phonetic
+132, phonetic environment
+133, phonological
+134, phonological constraint
+135, phonological process
+136, phonological rule
+137, phonotactic
+138, phonotactics
+139, pin
+140, pitch
+141, place assimilation
+142, post-vocalic r
+143, postlexical
+144, preservation
+145, primary stress
+146, pronunciation
+147, prosodic
+148, prosodic unit
+149, question
+150,/r/
+151, r-dropping
+152, rating data
+153, reduced
+154, requirement
+155, resyllabification
+156, rhyme
+157, rhythm
+158, rhythm reversal
+159, schwa deletion
+160, secondary stress
+161, short vowel
+162, sonorant
+163, sonority
+164, sonority hierarchy
+165, sound rule
+166, spelling
+167, spelling pronunciation
+168, stem
+169, stop
+170, stress
+171, stress clash
+172, stress-bearing
+173, stress-neutral
+174, stress-shift
+175, stress-shifting
+176, stressed
+177, stressed vowel
+178, strong
+179, suffix
+180, syllabel structure
+181, syllabic
+182, syllabic consonant
+183, syllable
+184, syllable peak
+185, syllable position
+186, syllable structure
+187, syllable weight
+188, synchronic
+189, syntactic
+190, tapping
+191, tense
+192, third segment
+193, tonic syllable
+194, total assimilation
+195, trochaic
+196, un
+197, unattested
+198, underived
+199, unmarked
+200, unstressed vowel
+201, ure
+202, velar
+203, velarized
+204, verb-forming
+205, vocalize
+206, voiceless stop
+207, voicing agreement 
+208, voicing assimilation
+209, vowel deletion
+210, vowel neutralization
+211, w
+212, weak syllable
+213, word formation
+214, word-initial
+215, y
+216,British English
+217,al
+218,alveolar stop
+219,antepenultimate
+220,assimilation
+221,coalescent assimilation
+222,connected speech
+223,consonant cluster
+224,diachronic
+225,dialectal variation
+226,diphthong
+227,feature
+228,foot
+229,function word
+230,glottal stop
+231,il
+232,intonation
+233,lateral
+234,learner
+235,monosyllabic
+236,morpheme
+237,morpheme boundary
+238,morphology
+239,NC
+240,nucleus
+241,overlapping
+242,past tense
+243,phonological process
+244,phonotactics
+245,prosodic unit
+246,schwa
+247,sonority
+248,speech error
+249,stress
+250,stress placement
+251,stress-shifting
+252,suffix
+253,syllabic
+254,syllable
+255,/t/
+256,tense
+257,trisyllabic laxing
+258,vowel
+259,/w/
