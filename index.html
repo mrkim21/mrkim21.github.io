@@ -79,6 +79,20 @@
        	    display: flex;
             justify-content: center;
         }
+        /* Floating Back to Top Button */
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none; /* Hidden by default */
+            z-index: 100; /* Ensure it's above other items */
+        }
+
     </style>
 </head>
 <body>
@@ -131,6 +145,8 @@
 	<br><br>
 	<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 	<div class="elfsight-app-bd5e5b2c-1e89-4aad-a440-0a4c1312fc60 center-div" data-elfsight-app-lazy></div>
+	    <!-- Floating Back to Top Button -->
+    <a href="#top" id="back-to-top">↑ Top</a>
 
 
 
@@ -138,5 +154,18 @@
     <footer>
         Last updated: Feb. 5, 2024 | 🌱 Since Jan. 17, 2024
     </footer>
+
+    <script>
+        // Show the "Back to Top" button when scrolling down
+        window.onscroll = function() {
+            var backToTopButton = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+    </script>
+
 </body>
 </html>
