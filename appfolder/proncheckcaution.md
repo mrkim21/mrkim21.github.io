@@ -1,4 +1,6 @@
-# When using the Pronunciation Correction Tool, it's essential to interpret the results with caution for several reasons. Here's an added caution for users:
+# Pronunciaiton Checker App [Notes]
+
+When using the Pronunciation Correction Tool, it's essential to interpret the results with caution for several reasons. Here's an added caution for users:
 
 ### Interpretation of Results:
 + Accuracy Limitations: The accuracy of the speech recognition and similarity comparison can be influenced by various factors, including the user's accent, speech clarity, background noise, and the quality of the microphone used for recording. Therefore, the feedback and similarity score should be seen as a guide rather than an absolute measure of pronunciation proficiency.
