@@ -8,8 +8,8 @@
 
 |ID|Keywords|APP|Description|
 |--|--|--|--|
-|240117 |	QR code generator||This is a user-friendly app where you paste a link, and it immediately creates a QR code. You can view and download this QR code as a PNG image for easy use and sharing.|
-|240128	| Random Grouping ||After you upload a student roster as a CSV file, you can set the groups according to the desired number of members and then download the resulting file.|
+|240117 |	QR code generator|[Code link](https://github.com/mrkim21/mrkim21.github.io/blob/main/appfolder/appcodes/240117_qrcode.ipynb)|This is a user-friendly app where you paste a link, and it immediately creates a QR code. You can view and download this QR code as a PNG image for easy use and sharing.|
+|240128	| Random Grouping |[Code link](https://github.com/mrkim21/mrkim21.github.io/blob/main/appfolder/appcodes/240117_qrcode.ipynb)|After you upload a student roster as a CSV file, you can set the groups according to the desired number of members and then download the resulting file.|
 
 ## 2. English teaching & learning
 
