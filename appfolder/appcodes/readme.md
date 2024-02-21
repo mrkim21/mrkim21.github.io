@@ -29,9 +29,9 @@
 |--|--|--|--|
 |240125 |	Foreign accented speech ||English speech with foreign accents (examples).|
 |240125 |	Text-to-Speech (English) ||From text to Speech: American English vs. British English|
-|240126	| Yes-No Question Converter (with be verb) | Write a statement and it converts it to a yes-no question with audio.|
+|240126	| Yes-No Question Converter (with be verb) || Write a statement and it converts it to a yes-no question with audio.|
 |240129	| Text analysis with TTR, MTLD, and FRE ||Analyze a text in terms of TTR (Type-to-Token Ratio), MTLD (Measure of Textual Lexical Diversity), and FRE(Flesch Reading Ease index)|
-|240203	| Oxford 5K vocabulary (with audio) | [📌 May not work on smartphone; This app generates audio files based on the Oxford 5000 (Vocabulary) word list, aiding learners in mastering words through listening. Basic vocabulary corresponding to function words has been excluded from the word list, and the remaining vocabulary is numbered according to CEFR levels. (Click here for the list).|
+|240203	| Oxford 5K vocabulary (with audio) || [📌 May not work on smartphone; This app generates audio files based on the Oxford 5000 (Vocabulary) word list, aiding learners in mastering words through listening. Basic vocabulary corresponding to function words has been excluded from the word list, and the remaining vocabulary is numbered according to CEFR levels. (Click here for the list).|
 |240205 |	TCE exam questions ||This app allows the user to search and display Teacher Certificate Exam questions by year and keywords in the area of phonetics/phonology. (Click [here](https://github.com/MK316/TExams/blob/main/TExams.csv) for the list).|
 |To be updated|	Stress practice | | To be updated|
 
