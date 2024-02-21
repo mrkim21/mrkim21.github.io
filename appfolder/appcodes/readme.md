@@ -8,14 +8,14 @@
 
 |ID|Keywords|APP|Description|
 |--|--|--|--|
-|240117 |	QR code generator|This is a user-friendly app where you paste a link, and it immediately creates a QR code. You can view and download this QR code as a PNG image for easy use and sharing.|
+|240117 |	QR code generator||This is a user-friendly app where you paste a link, and it immediately creates a QR code. You can view and download this QR code as a PNG image for easy use and sharing.|
 |240128	| Random Grouping ||After you upload a student roster as a CSV file, you can set the groups according to the desired number of members and then download the resulting file.|
 
 ## 2. English teaching & learning
 
 |ID|Keywords|APP|Description|
 |--|--|--|--|
-|240118 |	Spelling checker |This app melds auditory learning with active participation, ideal for enhancing spelling skills, particularly with challenging words, and its instant feedback helps users swiftly correct mistakes.|
+|240118 |	Spelling checker ||This app melds auditory learning with active participation, ideal for enhancing spelling skills, particularly with challenging words, and its instant feedback helps users swiftly correct mistakes.|
 |240119	| Spelling Quiz ||This app lets you choose your learner level, with each level featuring 10 words for a spelling check game. The user listens to the pronunciation of a word and then types its spelling.|
 |240123	| Word Frequency list| |Paste text to generate word frequency lists, alphabetically or by frequency, simplifying language analysis and enhancing language skills.|
 |240125	| Summarization| |Paste your text and it returns one possible summary.|
